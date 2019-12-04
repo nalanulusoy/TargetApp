@@ -7,17 +7,59 @@
 
     <fragment
         android:id="@+id/bottomNavFragmentHome"
-        android:name="com.example.targetapp.HomeFragment"
-        tools:layout="@layout/fragment_home"/>
+        android:name="com.example.targetapp.ui.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_bottomNavFragmentHome_to_targetListDetailFragment"
+            app:destination="@id/targetListDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/bottomNavFragmentAdd"
-        android:name="com.example.targetapp.AddTaskFragment"
-        tools:layout="@layout/fragment_add_task"/>
+        android:name="com.example.targetapp.ui.fragment.AddTaskFragment"
+        tools:layout="@layout/fragment_add_task">
+
+        <action
+            android:id="@+id/action_bottomNavFragmentAdd_to_addNewTaskFragment"
+            app:destination="@id/addNewTaskFragment"
+
+            />
+    </fragment>
 
     <fragment
         android:id="@+id/bottomNavFragmentSettings"
-        android:name="com.example.targetapp.SettingsFragment"
+        android:name="com.example.targetapp.ui.fragment.SettingsFragment"
         tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/addNewTaskFragment"
+        android:name="com.example.targetapp.ui.fragment.AddNewTaskFragment"
+        android:label="AddNewTaskFragment" >
+        <argument
+            android:name="targetArgs"
+            app:argType="string"
+            />
+        <argument
+            android:name="targetArgsDate"
+            app:argType="long"
+            />
+        <action
+            android:id="@+id/action_addNewTaskFragment_to_bottomNavFragmentAdd"
+            app:destination="@id/bottomNavFragmentAdd" />
+
+
+        <argument
+            android:name="targetArgsId"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/targetListDetailFragment"
+        android:name="com.example.targetapp.ui.fragment.TargetListDetailFragment"
+        android:label="TargetListDetailFragment" >
+
+        <action
+            android:id="@+id/action_targetListDetailFragment_to_bottomNavFragmentHome"
+            app:destination="@id/bottomNavFragmentHome" />
+    </fragment>
 
 </navigation>

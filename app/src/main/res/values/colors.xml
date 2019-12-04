@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#FFFF9800</color>
     <color name="colorAccent">#FFFF9800</color>
     <color name="white">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <color name="red">#8E1212</color>
+    <color name="green">#128E1D</color>
+    <color name="swich_on"> #1BE83E</color>
+    //Settings
+    <color name="colorLineLight">#E0E0E0</color>
+    <color name="categeoryPopularBackground">#F6F6F6</color>
+    <color name="settings_title_color"> #808080</color>
 </resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TargetApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_menu_title">Info</string>
+    <string name="home_bottom_nav_item_title">Home</string>
+    <string name="task_bottom_nav_item_title"> Add Target</string>
+    <string name="settings_bottom_nav_title">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <string name="target_status_true">True</string>
+    <string name="target_status_false">False</string>
+    <string name="target_status">Target Status</string>
+    <string name="target_info">Target Info</string>
+    <string name="target_date">Target Date :</string>
+    <string name="hint_target">Target…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Target not saved because it is empty.</string>
+    <string name="settings_app_title">SETTİNGS</string>
+    <string name="settings_night_mode">Night Mode</string>
+</resources>

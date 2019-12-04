@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="SETTİNGS FRAGMENT"
-        android:textColorLink="@color/colorAccent" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lr_app_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_appp_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/categeoryPopularBackground"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_title_app_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/settings_app_title"
+            android:textColor="@color/settings_title_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_night_mode_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/categeoryPopularBackground">
+
+            <RelativeLayout
+                android:id="@+id/rl_line_night_mode"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLineLight">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_line_gray_app_settings"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+
+                android:background="@color/colorLineLight">
+
+            </RelativeLayout>
+
+
+            <Switch
+                android:id="@+id/sw_night_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:padding="10dp"
+                android:text="@string/settings_night_mode"
+                android:thumbTint="@color/white"
+                android:track="@drawable/bg_switch" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
