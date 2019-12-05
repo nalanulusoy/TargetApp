@@ -7,6 +7,7 @@ MVVM-RxJava-LiveData-Room-Navigation Component
  
  
 # Uses the following technologies
+
 -ViewModel
   
 -LiveData
@@ -19,10 +20,8 @@ MVVM-RxJava-LiveData-Room-Navigation Component
   
   
   
-  
 # How did I use navigation component?
-  
-  
+    
 NavigationUI class  includes methods for  managing  the navigation drawer, and bottom navigation.
 I used navigation drawer and bottom navigation.
 I created  two navigation graph on this project.
@@ -49,9 +48,6 @@ I used room 2 with RxJava.
   
   
   
-  
-  
-  
 # Usage of  night mode 
   
 https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
@@ -67,7 +63,7 @@ https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
 -values-night
   
   
- <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
  
   
 
