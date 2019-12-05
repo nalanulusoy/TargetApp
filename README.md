@@ -54,16 +54,10 @@ https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
 
 
 
-# -values
-  
-  
-<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+-values-----> <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
  
  
-# -values-night
-  
-  
-<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+-values-night-----> <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
  
   
 
