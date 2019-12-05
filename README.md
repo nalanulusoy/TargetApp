@@ -20,11 +20,12 @@ MVVM-RxJava-LiveData-Room-Navigation Component
   I used navigation drawer and bottom navigation.
   I created  two navigation graph on this project.
   
-  https://user-images.githubusercontent.com/6108274/70239147-d2023e00-177b-11ea-86b5-9db6906ac687.png
+  <img width="464" alt="Screen Shot 2019-12-05 at 16 23 59" src="https://user-images.githubusercontent.com/6108274/70244178-f57db680-1784-11ea-983d-35d75bb29ef5.png">
   
   Navigation also allow for passing data between destinations.
   
-  https://user-images.githubusercontent.com/6108274/70241733-93bb4d80-1780-11ea-9c72-fe24698ba373.png
+ 
+<img width="619" alt="Screen Shot 2019-12-05 at 16 28 30" src="https://user-images.githubusercontent.com/6108274/70244233-0dedd100-1785-11ea-96a0-2da5158cb735.png">
  
 
   I reached to navigation graph inside fragment for passing data
@@ -49,6 +50,8 @@ MVVM-RxJava-LiveData-Room-Navigation Component
   
   -values
  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+ 
+ 
  -values-night
  <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
   
