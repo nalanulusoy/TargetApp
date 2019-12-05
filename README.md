@@ -65,8 +65,10 @@ https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
  
  
 -values-night
+  
+  
+ <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
  
-<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
   
 
 <img width="695" alt="Screen Shot 2019-12-05 at 17 26 05" src="https://user-images.githubusercontent.com/6108274/70243846-72f4f700-1784-11ea-93b0-06a6c0c84abe.png">
