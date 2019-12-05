@@ -1,12 +1,12 @@
 package com.example.targetapp.data.repository
 
 import com.example.targetapp.TargetModel
-import com.example.targetapp.TaskDao
+import com.example.targetapp.TargetDao
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
-class TargetDetailTaskRepository (private val targetDao: TaskDao, compositeDisposable: CompositeDisposable) {
+class TargetDetailTargetRepository (private val targetDao: TargetDao, compositeDisposable: CompositeDisposable) {
 
     var comp : CompositeDisposable = compositeDisposable
 

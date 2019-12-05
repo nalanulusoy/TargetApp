@@ -9,12 +9,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.targetapp.*
-import com.example.targetapp.ui.adapter.TaskListAdapter
+import com.example.targetapp.ui.adapter.TargetListAdapter
 import kotlinx.android.synthetic.main.fragment_add_task.*
 
 
-class AddTaskFragment : Fragment() {
-    private lateinit var addtaskNewModel: AddNewTaskViewModel
+class AddTargetFragment : Fragment() {
+    private lateinit var addtaskNewModel: AddNewTargetViewModel
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -27,10 +27,10 @@ class AddTaskFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         // Get a new or existing ViewModel from the ViewModelProvider.
-        addtaskNewModel = ViewModelProvider(this).get(AddNewTaskViewModel::class.java)
+        addtaskNewModel = ViewModelProvider(this).get(AddNewTargetViewModel::class.java)
 
         val adapter = context?.let {
-            TaskListAdapter(
+            TargetListAdapter(
                 it,
                 Utils.WHERE_TYPE.ADD_TASK_FRAGMENT
             )

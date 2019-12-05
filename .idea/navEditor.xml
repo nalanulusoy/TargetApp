@@ -11,12 +11,6 @@
                   <entry key="addNewTaskFragment">
                     <value>
                       <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="246" />
-                            <option name="y" value="-810" />
-                          </Point>
-                        </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_addNewTaskFragment_to_bottomNavFragmentAdd">
@@ -32,12 +26,6 @@
                   <entry key="bottomNavFragmentAdd">
                     <value>
                       <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="12" />
-                          </Point>
-                        </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_bottomNavFragmentAdd_to_addNewTaskFragment">
@@ -53,12 +41,6 @@
                   <entry key="bottomNavFragmentHome">
                     <value>
                       <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="11" />
-                          </Point>
-                        </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_bottomNavFragmentHome_to_targetListDetailFragment">
@@ -73,25 +55,12 @@
                   </entry>
                   <entry key="bottomNavFragmentSettings">
                     <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="368" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
+                      <LayoutPositions />
                     </value>
                   </entry>
                   <entry key="targetListDetailFragment">
                     <value>
                       <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-10" />
-                            <option name="y" value="-413" />
-                          </Point>
-                        </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_targetListDetailFragment_to_bottomNavFragmentHome">

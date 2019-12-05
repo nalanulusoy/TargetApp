@@ -6,7 +6,7 @@ import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
-class AddNewTaskRepository(private val targetDao: TaskDao,compositeDisposable: CompositeDisposable) {
+class AddNewTargetRepository(private val targetDao: TargetDao, compositeDisposable: CompositeDisposable) {
 
     var comp : CompositeDisposable = compositeDisposable
 
@@ -21,12 +21,10 @@ class AddNewTaskRepository(private val targetDao: TaskDao,compositeDisposable: C
 
     }
 
-
        fun insert(target: TargetModel) {
         comp.add(Observable.fromCallable { targetDao.insert(target)}
             .subscribeOn(Schedulers.computation())
             .subscribe())
-
 
     }
 }

@@ -1,26 +1,23 @@
 package com.example.targetapp.ui.adapter
 
 import android.content.Context
-import android.graphics.Color
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.core.os.bundleOf
-import androidx.core.widget.TextViewCompat
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.targetapp.R
 import com.example.targetapp.TargetModel
 import com.example.targetapp.Utils
 
-class TaskListAdapter internal constructor(
+class TargetListAdapter internal constructor(
 context: Context,where : String
-) : RecyclerView.Adapter<TaskListAdapter.TargetViewHolder>() {
+) : RecyclerView.Adapter<TargetListAdapter.TargetViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private var targets= emptyList<TargetModel>() // Cached copy of words

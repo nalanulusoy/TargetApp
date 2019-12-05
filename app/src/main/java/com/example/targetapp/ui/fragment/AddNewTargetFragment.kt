@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.fragment_new_add_task.*
 import java.util.*
 
 
-class AddNewTaskFragment : Fragment() {
+class AddNewTargetFragment : Fragment() {
 
    var targetDate : Long =0
 
