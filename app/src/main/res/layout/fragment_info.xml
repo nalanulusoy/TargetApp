@@ -7,13 +7,10 @@
 
     android:layout_margin="16dp">
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_info_app"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-
-        android:text="COMİNG SOON "
-        android:textColorLink="@color/colorAccent" />
-
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
 </RelativeLayout>

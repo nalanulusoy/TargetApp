@@ -10,20 +10,20 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.targetapp.R
 import com.example.targetapp.ui.viewModel.TargetDetailListViewModel
 import kotlinx.android.synthetic.main.fragment_targetlist.*
-import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import com.example.targetapp.TargetModel
+import java.util.*
 
 
 class TargetListDetailFragment : Fragment() {
     lateinit var targetDetailListViewModel: TargetDetailListViewModel
     var targetArgsId: Int = 0
+    var targetDate: Long = 0
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         return inflater.inflate(R.layout.fragment_targetlist, container, false)
     }
 
@@ -31,6 +31,7 @@ class TargetListDetailFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        converToCalenderListener()
         targetArgsId = arguments?.getInt("targetArgsId")!!
 
         targetDetailListViewModel =
@@ -43,9 +44,9 @@ class TargetListDetailFragment : Fragment() {
                 if (it != null) {
                     tv_targetName.text = it.target
 
-
                     if (it.targetDate != null) {
-                        calendarViewDetail.date = it.targetDate.toLong()
+                        targetDate = it.targetDate
+                        calendarViewDetail.setDate(it.targetDate, true, true)
                     }
 
                     if (it.targetStatus != null) {
@@ -73,25 +74,31 @@ class TargetListDetailFragment : Fragment() {
 
         bt_update.setOnClickListener {
 
-
             var targetName = tv_targetName.text.toString()
             var targetStatus = fetchStatusTarget()
-            var targetDate = calendarViewDetail.date
-
-
             var targetModel = TargetModel(targetName, targetStatus, targetDate)
 
-
-
             if (targetModel != null) {
-                targetDetailListViewModel.updateTarget(targetModel)
+                targetDetailListViewModel.updateTarget(targetModel, targetArgsId)
             }
-
 
             view?.findNavController()
                 ?.navigate(R.id.action_targetListDetailFragment_to_bottomNavFragmentHome)
 
+        }
 
+    }
+
+
+    fun converToCalenderListener() {
+
+        calendarViewDetail.setOnDateChangeListener { view, year, month, dayOfMonth ->
+            var calendar = Calendar.getInstance()
+            calendar.timeZone = TimeZone.getTimeZone("Asia/Istanbul")
+            calendar.set(Calendar.YEAR, year)
+            calendar.set(Calendar.MONTH, month)
+            calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth)
+            targetDate = calendar.getTimeInMillis()
         }
 
 
@@ -107,9 +114,7 @@ class TargetListDetailFragment : Fragment() {
             checkedTrue.setChecked(false)
             checkedFalse.setChecked(true)
         }
-
         checkedTrue.setOnClickListener {
-
             if (checkedTrue.isChecked) {
 
                 checkedTrue.setChecked(false)
@@ -121,7 +126,6 @@ class TargetListDetailFragment : Fragment() {
 
             }
         }
-
         checkedFalse.setOnClickListener {
 
             if (checkedFalse.isChecked) {

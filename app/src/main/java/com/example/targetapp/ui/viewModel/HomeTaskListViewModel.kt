@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.targetapp.AddNewTaskRepository
 import com.example.targetapp.TargetModel
 import com.example.targetapp.TargetRoomDatabase
+import io.reactivex.disposables.CompositeDisposable
 
 
 class HomeTaskListViewModel (application: Application) : AndroidViewModel(application) {
@@ -14,13 +15,15 @@ class HomeTaskListViewModel (application: Application) : AndroidViewModel(applic
 
     // The ViewModel maintains a reference to the repository to get data.
     private val repository: AddNewTaskRepository
-    // LiveData gives us updated words when they change.
+    // LiveData gives us updated target when they change.
     val allTargets: LiveData<List<TargetModel>>
 
+    var comp : CompositeDisposable
     init {
         val targetDao = TargetRoomDatabase.getDatabase(application, viewModelScope).taskDao()
-        repository = AddNewTaskRepository(targetDao)
-        allTargets = repository.allTargets
+        comp=CompositeDisposable()
+        repository = AddNewTaskRepository(targetDao,comp)
+        allTargets = repository.allTargets()
 
     }
 

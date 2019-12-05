@@ -28,7 +28,7 @@ import kotlinx.coroutines.launch
 import java.time.LocalDateTime
 
 
-@Database(entities = [TargetModel::class], version = 5, exportSchema = false)
+@Database(entities = [TargetModel::class], version = 7, exportSchema = false)
 abstract class TargetRoomDatabase : RoomDatabase() {
 
     abstract fun taskDao(): TaskDao

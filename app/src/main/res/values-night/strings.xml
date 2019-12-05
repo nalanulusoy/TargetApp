@@ -6,15 +6,13 @@
     <string name="task_bottom_nav_item_title"> Add Target</string>
     <string name="settings_bottom_nav_title">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_splash">SplashActivity</string>
+
 
 
     <string name="target_status_true">True</string>
     <string name="target_status_false">False</string>
-    <string name="target_status">Target Status</string>
-    <string name="target_info">Target Info</string>
+    <string name="target_status">Target Status :</string>
+    <string name="target_info">Target Info :</string>
     <string name="target_date">Target Date :</string>
     <string name="hint_target">Target…</string>
     <string name="button_save">Save</string>
