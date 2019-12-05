@@ -4,7 +4,9 @@ MVVM-RxJava-LiveData-Room-Navigation Component
 # OverView
 ![giphy](https://user-images.githubusercontent.com/6108274/70237754-eb55bb00-1778-11ea-8dcf-855d20dd34db.gif)
 
- # Uses the following technologies
+ 
+ 
+# Uses the following technologies
 -ViewModel
   
 -LiveData
@@ -16,7 +18,9 @@ MVVM-RxJava-LiveData-Room-Navigation Component
 -RxJava 2
   
   
-  # How did I use navigation component?
+  
+  
+# How did I use navigation component?
   
   
 NavigationUI class  includes methods for  managing  the navigation drawer, and bottom navigation.
@@ -47,6 +51,7 @@ I used room 2 with RxJava.
   
   
   
+  
 # Usage of  night mode 
   
 https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
@@ -66,22 +71,14 @@ https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
 
 <img width="695" alt="Screen Shot 2019-12-05 at 17 26 05" src="https://user-images.githubusercontent.com/6108274/70243846-72f4f700-1784-11ea-93b0-06a6c0c84abe.png">
 
-
-
 I created two values folder for this project.
+
 Each folder inside color themes dimens and style XML file.
+
 it can obtain the dark theme on Android 10  which supported night mode supported. 
+
 Besides, it can change inside application settings dark theme.
  
 
   
-  
-  
-  
-  
-  
-  
-  
-  
  
-
