@@ -50,18 +50,22 @@ I used room 2 with RxJava.
 # Usage of  night mode 
   
 https://developer.android.com/guide/topics/ui/look-and-feel/darktheme
-  
+
+
+
 -values
+  
   
 <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
  
  
- -values-night
+-values-night
  
- <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
   
 
 <img width="695" alt="Screen Shot 2019-12-05 at 17 26 05" src="https://user-images.githubusercontent.com/6108274/70243846-72f4f700-1784-11ea-93b0-06a6c0c84abe.png">
+
 
 
 I created two values folder for this project.
