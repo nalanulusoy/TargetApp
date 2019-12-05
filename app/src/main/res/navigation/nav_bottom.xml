@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/bottomNavFragmentAdd"
-        android:name="com.example.targetapp.ui.fragment.AddTaskFragment"
+        android:name="com.example.targetapp.ui.fragment.AddTargetFragment"
         tools:layout="@layout/fragment_add_task">
 
         <action
@@ -32,7 +32,7 @@
         tools:layout="@layout/fragment_settings"/>
     <fragment
         android:id="@+id/addNewTaskFragment"
-        android:name="com.example.targetapp.ui.fragment.AddNewTaskFragment"
+        android:name="com.example.targetapp.ui.fragment.AddNewTargetFragment"
         android:label="AddNewTaskFragment" >
         <argument
             android:name="targetArgs"

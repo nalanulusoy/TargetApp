@@ -16,10 +16,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetRoomDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetRoomDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/AddNewTaskRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/AddNewTaskRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/TargetDetailListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/TargetDetailListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_bottom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/InfoFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/TargetListDetailFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-429">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -93,6 +97,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/adapter/TargetListAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/activity/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,8 +115,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TaskDao.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetDao.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
@@ -112,7 +125,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddNewTaskFragment.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddNewTargetFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -121,19 +134,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/AddNewTaskRepository.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetRoomDatabase.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="540">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="e#33#337#0" expanded="true" />
               </folding>
@@ -336,8 +340,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="23" />
+    <option name="x" value="131" />
+    <option name="y" value="35" />
     <option name="width" value="1276" />
     <option name="height" value="775" />
   </component>
@@ -393,15 +397,6 @@
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="targetapp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TargetApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="targetapp" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -433,6 +428,16 @@
               <item name="targetapp" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TargetApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="targetapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="viewModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TargetApp" type="1abcf292:AndroidViewProjectNode" />
@@ -642,13 +647,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTaskFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTargetFragment.kt</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTaskFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTargetFragment.kt</url>
           <line>51</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -713,13 +718,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/TaskListDetaiViewModel.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/TargetDetailListRepository.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TaskListDetailViewRepository.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/adapter/TaskListAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/example/targetapp/TaskDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -808,7 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/TargetDetailTaskRepository.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/TargetDetailTargetRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
@@ -849,14 +847,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/AddNewTaskViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/AddNewTargetViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTaskFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddTargetFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
@@ -923,7 +921,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/HomeTaskListViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/viewModel/HomeTargetListViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
@@ -933,14 +931,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/AddNewTaskRepository.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/repository/AddNewTargetRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddNewTaskFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/AddNewTargetFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -957,7 +955,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/InfoFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -974,14 +972,14 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/fragment/TargetListDetailFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-429">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/activity/SplashActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetDao.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -994,18 +992,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TargetRoomDatabase.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="540">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="24" />
           <folding>
             <element signature="e#33#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/data/TaskDao.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/activity/SplashActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+        <state relative-caret-position="60">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/targetapp/ui/adapter/TargetListAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
         </state>
       </provider>
     </entry>

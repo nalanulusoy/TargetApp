@@ -9,8 +9,8 @@ import androidx.room.Update
 
 import com.example.targetapp.TargetModel
 import com.example.targetapp.TargetRoomDatabase
-import com.example.targetapp.TaskDao
-import com.example.targetapp.data.repository.TargetDetailTaskRepository
+import com.example.targetapp.TargetDao
+import com.example.targetapp.data.repository.TargetDetailTargetRepository
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.coroutines.launch
 
@@ -22,18 +22,18 @@ class TargetDetailListViewModel(application: Application) : AndroidViewModel(app
     // LiveData gives us updated target when they change.
     lateinit var allTargets: LiveData<TargetModel>
 
-    var targetDao: TaskDao
+    var targetDao: TargetDao
     var comp: CompositeDisposable
 
 
-    var targetDetailRepository: TargetDetailTaskRepository
+    var targetDetailRepository: TargetDetailTargetRepository
 
 
     init {
         targetDao = TargetRoomDatabase.getDatabase(application, viewModelScope).taskDao()
         comp = CompositeDisposable()
         targetDetailRepository =
-            TargetDetailTaskRepository(targetDao, comp)
+            TargetDetailTargetRepository(targetDao, comp)
 
     }
 

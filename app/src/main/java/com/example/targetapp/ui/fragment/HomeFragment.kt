@@ -10,12 +10,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.targetapp.R
 import com.example.targetapp.Utils
-import com.example.targetapp.ui.adapter.TaskListAdapter
-import com.example.targetapp.ui.viewModel.HomeTaskListViewModel
+import com.example.targetapp.ui.adapter.TargetListAdapter
+import com.example.targetapp.ui.viewModel.HomeTargetListViewModel
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {
-    lateinit var homeTaskListViewModel: HomeTaskListViewModel
+    lateinit var homeTargetListViewModel: HomeTargetListViewModel
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -27,17 +27,17 @@ class HomeFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        homeTaskListViewModel = ViewModelProvider(this).get(HomeTaskListViewModel::class.java)
+        homeTargetListViewModel = ViewModelProvider(this).get(HomeTargetListViewModel::class.java)
 
         val adapter = context?.let {
-            TaskListAdapter(
+            TargetListAdapter(
                 it,
                 Utils.WHERE_TYPE.TARGET_LİST_FRAGMENT
             )
         }
         rec_targetList.adapter = adapter
         rec_targetList.layoutManager = LinearLayoutManager(context)
-        homeTaskListViewModel.allTargets.observe(viewLifecycleOwner, Observer {
+        homeTargetListViewModel.allTargets.observe(viewLifecycleOwner, Observer {
             adapter?.setTask(it)
             rec_targetList.adapter
 
